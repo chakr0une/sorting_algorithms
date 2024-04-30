@@ -1,10 +1,11 @@
 #include "sort.h"
 
 /**
- * sort_bub - sort list with bubble
+ * bubble_sort - sort list with bubble
  * @array: The array to be printed
  * @size: Number of elements in @array
  */
+
 void bubble_sort(int *array, size_t size)
 {
 	size_t n = 0, t = size;
