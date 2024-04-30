@@ -29,5 +29,10 @@ void cocktail_sort_list(listint_t **list);
 void swapme(listint_t *current, listint_t *current_old, listint_t **list);
 int arr_max(int *array, size_t size);
 void counting_sort(int *array, size_t size);
+void merge_sort(int *array, size_t size);
+void copy_array(int *arr, int *cpy, int size);
+void print_left_right(int *array, int size, int first, int mid);
+void merge(int *array, int size, int first, int mid, int *cpy);
+void mergeSort(int *cpy, int first, int size, int *array);
 
 #endif
