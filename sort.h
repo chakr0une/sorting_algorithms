@@ -34,5 +34,6 @@ void copy_array(int *arr, int *cpy, int size);
 void print_left_right(int *array, int size, int first, int mid);
 void merge(int *array, int size, int first, int mid, int *cpy);
 void mergeSort(int *cpy, int first, int size, int *array);
+void heap_sort(int *array, size_t size);
 
 #endif
